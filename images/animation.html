@@ -1,0 +1,55 @@
+<!-- This html5-optimized file contains javascript that enables relative linking that mimics the staging server. You do not have to store your files using the staging server's structure!  In order for it to work correctly, type in the correct location of the cms files and your local files on lines 12-15. -->
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+
+	<script type="text/javascript">
+	/*  Edit File locations for dynamic path retrieval  */
+		var convergeId = "01_INT_42553_IntelHoliday";
+		var cmsPath = "/intel-ultrabook-2013/";
+		//var globalPath = "C:/xampp/htdocs/idev/MediaOMP/2012/BrandShops/_global/";
+		//var localPath = "C:/xampp/htdocs/idev/intel-ultrabook-2013/"; // Include drive:/ and full, local path for local testing on a PC (ie, C:/MediaOMP/2012/_core/); leave blank on a MAC
+
+		var localPath = "/intel-ultrabook-2013/"; // Include drive:/ and full, local path for local testing on a PC (ie, C:/MediaOMP/2012/_core/); leave blank on a MAC
+		var globalPath = localPath + "_global/";
+
+		
+		
+	/*	Do not edit. Determines which file path to use (localPath or cmsPath) */
+		var protocol = window.location.protocol;
+		protocol = protocol == 'file:' ? 'file:///' : '';
+
+		root = (window.location.host.match('.com') == null) ? localPath : cmsPath;
+		root = protocol + root;
+		globalPath = protocol + globalPath;
+	</script>
+
+	<!-- Stylesheets: ok to edit folders/filenames.css.  Copy/paste to add more (must include script tags for dynamic paths to work.)  -->	
+	<script type="text/javascript">document.write('<link href="'+root+'css/styles.css" rel="stylesheet" type="text/css">');</script>
+	<script type="text/javascript">document.write('<link href="'+globalPath+'css/trm_colorbox.css" rel="stylesheet" type="text/css">');</script>
+
+	<!-- Core Libraries: ok to edit folders/filenames.js.  Copy/paste to add more (must include script tags for dynamic paths to work.) Go to footer to add/modify plugins and custom scripts -->
+	<script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="'+root+'js/jquery.min.js"></scr'+'ipt>')</script>
+	<script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="'+root+'js/jquery.easing.1.3.js"></scr'+'ipt>')</script>
+	<script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="'+root+'js/jquery.jsmovie.min.js"></scr'+'ipt>')</script>
+	
+		
+
+	<!--[if lt IE 9]>
+		<script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="'+globalPath+'js/html5.js"></scr'+'ipt>')</script>
+	<![endif]-->	
+</head>
+<body>
+<div id="pov-animation-convertible"></div>
+	
+	<!-- Plugins & Custom Scripts -->
+	<script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="'+globalPath+'js/swfobject.js"></scr'+'ipt>')</script>
+	<script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="'+globalPath+'js/jquery.colorbox.js"></scr'+'ipt>')</script>
+	<script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="'+root+'js/trm-custom.js"></scr'+'ipt>')</script>
+	<script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="'+root+'js/jquery.trm_RotatingPov.js"></scr'+'ipt>')</script>
+	
+</body>
+</html>
