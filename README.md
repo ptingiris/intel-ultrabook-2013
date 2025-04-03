@@ -1,7 +1,7 @@
 # Intel Ultrabook Campaign (2013)
 ## Hand-Crafted Digital Experience for Walmart.com
 
-![Intel Ultrabook Preview](images/intel-ultrabook-preview.jpg)
+![Intel Ultrabook Preview](images/intel-ultrabook-preview.png)
 
 ## Project Overview
 
