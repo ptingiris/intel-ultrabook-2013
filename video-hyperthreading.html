@@ -1,0 +1,66 @@
+<!-- This html file contains javascript that enables relative linking that mimics the staging server. You do not have to store your files using the staging server's structure!  In order for it to work correctly, type in the correct location of the staging files and your local files on lines 12-15. -->
+
+<!DOCTYPE HTML>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html>
+<head>
+	<title></title>
+
+	<!--[if lt IE 9]>
+		<style>
+		body {
+			background: #000;
+			margin: 2px;
+		}
+		</style>
+	<![endif]-->
+
+	<script type="text/javascript">
+	/*  Edit File locations for dynamic path retrieval  */
+		var convergeId = "01_INT_42553";
+		var cmsPath = "/intel-ultrabook-2013/";
+		var globalPath = "/intel-ultrabook-2013/_global/";
+		var localPath = "/intel-ultrabook-2013/"; // Include drive:/ and full, local path for local testing (ie, C:/MediaOMP/2012/BrandShops/test/)
+
+	/*	Do not edit. Determines which file path to use (localPath or cmsPath) */
+		var protocol = window.location.protocol;
+		protocol = protocol == 'file:' ? 'file:///' : '';
+
+		root = (window.location.host.match('.com') == null) ? localPath : cmsPath;
+		root = protocol + root;
+		globalPath = protocol + globalPath;
+	</script>	
+
+	<!-- Core Libraries -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+	<!-- Plugins -->
+	<script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="'+globalPath+'js/swfobject.js"></scr'+'ipt>')</script>
+	<script type="text/javascript">document.write('<scr'+'ipt type="text/javascript" src="'+globalPath+'js/jquery.videoSwitchV2_modal.js"></scr'+'ipt>')</script>
+
+	<script type='text/javascript'>
+	    $(document).ready(function () {
+	        $(".mivideo").videoSwitch({
+	        videoId: 'Intel_Hyperthreading',				// Enter a unique video identifier
+	        videoWidth: 640,								// Update size if needed
+	        videoHeight:360,								// Update size if needed
+	        autoplay:true,									
+	        video: root + 'video/Hyperthreading.mp4',		// Enter mp4 file name
+	        videoPoster: root + 'video/Hyperthreading.jpg', // Enter backup image file name; for html 5
+	        seek:'3.8', // for flash start view
+	        track:'Video_Hyperthreading',				// Enter for tracking
+	        converge:'01_INT_42553'
+	        });
+	    });
+	</script>
+
+</head>
+
+<body>
+
+	<div class="mivideo">
+
+	</div>	
+	
+</body>
+</html>

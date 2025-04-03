@@ -228,4 +228,4 @@ intel-ultrabook/
 
 ---
 
-*This project demonstrates early adoption of HTML5 and CSS3 techniques that would later become standard practices in front-end development.*
+*This project demonstrates early adoption of HTML5 and CSS3 techniques that would later become standard practices in front-end development. Visit my [full portfolio](https://github.com/ptingiris/pam-tingiris-portfolio.git) for a detailed analysis of this project and my more current work.*
