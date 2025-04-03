@@ -1,0 +1,117 @@
+#tdmContainer .trm_povContainer{
+	position:relative;
+	width:806px;
+}
+#tdmContainer #trm_rotatingPov{
+	display: block;
+	width:806px;
+	height:320px;
+}
+#tdmContainer .bg{
+	width:150px;
+	height:28px;
+	padding:3px 0px 0px 7px;
+	background: url(../layout/navbg.png) no-repeat 0 0px;
+}
+#tdmContainer #trm_povnav{
+	position:absolute;
+	z-index:500;
+	display: block;
+	padding-top: 3px;
+}
+#tdmContainer #trm_povnav a {
+	font-family:Arial,serif;
+	width:18px;
+	text-align:center;
+	background-color:#eeeeee;
+	display:inline-block;
+	margin-right:5px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#564478;
+	border:none;
+}
+#tdmContainer #trm_povnav a:hover{
+	color:#ffffff;
+	background-color:#bdbdbd;
+}
+#tdmContainer #trm_povnav a.activeSlide{
+	color:#ffffff;
+	background: url(../layout/fill.jpg) no-repeat 0 21px;
+	background-color: #BDBDBD;
+}
+#tdmContainer .trm_pov_envelope{
+	width:18px;
+	height:19px; line-height: 19px;
+	background: url(../layout/envelope.png);
+	display:inline-block;
+}
+#tdmContainer #trm_povFooter{
+	display: block;
+	margin: 10px 0 0 0;
+    position: relative;
+}
+#tdmContainer #trm_statusBtn, #trm_statusBtn .activeSlide{
+	width:62px !important;
+	text-align:center;
+	height:25px;
+	background-color:#cccccc;
+	display:inline-block;
+	margin-right:5px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FFFFFF;
+	line-height:17px;
+	float:left;
+}
+#tdmContainer #trm_statusBtn{
+	background: url(../layout/statusBtn.png) 0px 28px;
+	line-height: 25px;
+}
+#tdmContainer #trm_statusBtn, #trm_hotSpot, .trm_hotSpot{
+	cursor:pointer;
+}
+#tdmContainer #trm_hotSpot, .trm_hotSpot{
+	display:block;
+	z-index:5000;
+	/*background: url("../transparent.png") 0 0 repeat;*/
+	width: 258px;
+	height: 150px;
+	background-image: url(../images/x.gif); 
+}
+#tdmContainer #trm_statusBtn,
+#tdmContainer #trm_povnav,
+#tdmContainer #trm_povdescription {
+	float: left;
+	position: static !important;
+}
+#tdmContainer .btn1{
+	background-color:#ff0000;
+}
+#tdmContainer .btn2{
+	background-color:#eeeeee;
+}
+#tdmContainer #trm_povdescription{
+	position:relative;
+	top: 3px;
+	height: 25px; line-height: 25px;
+}
+
+#tdmContainer #trm_rotatingPov .price {
+	color: #cc0000;
+	font: 30px/28px Arial, Helvetica, sans-serif;
+	position: absolute;	right: 1em; bottom: 1em;
+}
+#tdmContainer #trm_rotatingPov .price span,
+#tdmContainer #trm_rotatingPov .price .amount {
+	display: inline-block;
+}
+#tdmContainer #trm_rotatingPov .price .prefix {
+	 font-size: .5em; 	
+	font-weight: bold;
+}
+#tdmContainer #trm_rotatingPov .price .super {
+	font-size: .5em;
+	font-weight: bold;
+	vertical-align: super;
+}

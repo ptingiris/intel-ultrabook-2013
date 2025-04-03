@@ -1,0 +1,151 @@
+@import "reset.css";
+@import "trm_rotatingPov.css";
+
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#tdmContainer {
+	margin: 0 0 0 10px;
+	position: relative;
+	width: 806px;
+	float: left;
+	right: 0;
+}
+#tdmContainer .rightModuleContainer {
+	float: left;
+	margin: 10px 0 0 1.25%;
+	width: 28.75%; height: 100%;
+}
+#tdmContainer.cols .content {
+	float: left;
+	width: 70%;
+}
+#tdmContainer .banner {margin-bottom: 10px}
+#tdmContainer #TDM_left_column {
+	float: left;
+	width: 183px; height: 905px;
+}
+#tdmContainer #TDM_primary_content {
+	float: right;
+	margin-left: 10px;
+	width: 807px;
+}
+#tdmContainer .fullscreen {
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+#tdmContainer .sectionTitle {
+	margin: 10px 0;
+	width: 100%	
+}
+#tdmContainer .sectionTitle h2 {
+	background: url('../layout/titleMid.jpg') repeat-x;
+	color: #666;
+	font-size: 17px;
+	height: 31px; line-height: 31px;
+	text-align: left;
+	width: 550px;
+}
+#tdmContainer .fullscreen .sectionTitle h2 {
+	width: 793px;
+}
+#tdmContainer .sectionTitle h2,
+#tdmContainer .sectionTitle .end {
+	float: left;
+}
+#tdmContainer .sectionTitle .end {
+	width: 7px; height: 31px;
+}
+#tdmContainer .sectionTitle .end.left {
+	background: url('../layout/titleLeft.jpg') no-repeat;
+}
+#tdmContainer .sectionTitle .end.right {
+	background: url('../layout/titleRight.jpg') no-repeat;
+}
+#tdmContainer .categories {
+	margin: 0;
+}
+#tdmContainer .categories li {
+	border: 1px solid #ccc;
+	box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+	display: block;
+	list-style-type: none;
+	margin: 0 10px 10px 0; padding: 0;
+	float: left;
+}
+#tdmContainer .categories li.last {
+	margin-right: 0;
+}
+#tdmContainer .categories img {
+	float: left;
+	min-height: 150px;
+}
+#tdmContainer .categories .photo {
+	display: block;
+	overflow: hidden;
+}
+#tdmContainer .categories .info {
+	font-size: 12px;
+	padding: 1.25em;
+	text-align: left;
+}
+#tdmContainer .categories .info h3 {
+	font-size: 1.25em;
+	margin-bottom: 1em;
+}
+#tdmContainer .categories .info p {
+	color: #333;
+	font: 12px/16px Arial, Helvetica, sans-serif;
+	margin-bottom: 13px;
+}
+#tdmContainer .categories .info a {
+	color: #1a75cf;
+	display: block;
+	font-size: 13px;
+	line-height: 16px;
+	text-decoration: none;
+}
+#tdmContainer .categories .info a.shop.all {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+#tdmContainer .categories .info a:hover, #tdmContainer .categories .info a:active {
+	color:#ff6633;
+	text-decoration: underline;
+}
+
+#tdmContainer #trm_rotatingPov .price1 {
+	position: relative; top: -100px; left: -100px;
+}
+#tdmContainer #trm_rotatingPov .price2 {
+	position: relative; top: -80px; left: -500px;
+}
+#tdmContainer .seoContent {
+	text-align: left;
+	margin-bottom: 10px;
+}
+#tdmContainer .seoContent h2 {
+	font-size: 12px;
+	line-height: 15px;
+}
+#tdmContainer .seoContent p {
+	line-height: 15px;
+	margin: 0 0 20px 0;
+}
+
+
+#ie7 #tdmContainer #trm_rotatingPov .price div {
+	height: 36px;
+}
+#ie7 #tdmContainer #trm_rotatingPov .price span {
+	display: inline-block;
+	line-height: 1;
+}

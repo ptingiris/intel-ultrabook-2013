@@ -1,0 +1,48 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+#tdmContainer html, #tdmContainer body, #tdmContainer div, #tdmContainer span, #tdmContainer applet, #tdmContainer object, #tdmContainer iframe,
+#tdmContainer h1, #tdmContainer h2, #tdmContainer h3, #tdmContainer h4, #tdmContainer h5, #tdmContainer h6, #tdmContainer p, #tdmContainer blockquote, #tdmContainer pre,
+#tdmContainer a, #tdmContainer abbr, #tdmContainer acronym, #tdmContainer address, #tdmContainer big, #tdmContainer cite, #tdmContainer code,
+#tdmContainer del, #tdmContainer dfn, #tdmContainer em, #tdmContainer img, #tdmContainer ins, #tdmContainer kbd, #tdmContainer q, #tdmContainer s, #tdmContainer samp,
+#tdmContainer small, #tdmContainer strike, #tdmContainer strong, #tdmContainer sub, #tdmContainer sup, #tdmContainer tt, #tdmContainer var,
+#tdmContainer b, #tdmContainer u, #tdmContainer i, #tdmContainer center,
+#tdmContainer dl, #tdmContainer dt, #tdmContainer dd, #tdmContainer ol, #tdmContainer ul, #tdmContainer li,
+#tdmContainer fieldset, #tdmContainer form, #tdmContainer label, #tdmContainer legend,
+#tdmContainer table, #tdmContainer caption, #tdmContainer tbody, #tdmContainer tfoot, #tdmContainer thead, #tdmContainer tr, #tdmContainer th, #tdmContainer td,
+#tdmContainer article, #tdmContainer aside, #tdmContainer canvas, #tdmContainer details, #tdmContainer embed, 
+#tdmContainer figure, #tdmContainer figcaption, #tdmContainer footer, #tdmContainer header, #tdmContainer hgroup, 
+#tdmContainer menu, #tdmContainer nav, #tdmContainer output, #tdmContainer ruby, #tdmContainer section, #tdmContainer summary,
+#tdmContainer time, #tdmContainer mark, #tdmContainer audio, #tdmContainer video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	line-height: 13px;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+#tdmContainer article, #tdmContainer aside, #tdmContainer details, #tdmContainer #tdmContainer figcaption, #tdmContainer figure, 
+#tdmContainer footer, #tdmContainer header, #tdmContainer hgroup, #tdmContainer menu, #tdmContainer nav, #tdmContainer section {
+	display: block;
+}
+#tdmContainer body {
+	line-height: 1;
+}
+#tdmContainer ol, #tdmContainer ul {
+	list-style: none;
+}
+#tdmContainer blockquote, #tdmContainer q {
+	quotes: none;
+}
+#tdmContainer blockquote:before, #tdmContainer blockquote:after,
+#tdmContainer q:before, #tdmContainer q:after {
+	content: '';
+	content: none;
+}
+#tdmContainer table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
