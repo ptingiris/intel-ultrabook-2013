@@ -1,7 +1,7 @@
 # Intel Ultrabook Campaign (2013)
 ## Hand-Crafted Digital Experience for Walmart.com
 
-![Intel Ultrabook Preview](screenshots/intel-ultrabook-preview.jpg)
+![Intel Ultrabook Preview](images/intel-ultrabook-preview.jpg)
 
 ## Project Overview
 
@@ -228,4 +228,4 @@ intel-ultrabook/
 
 ---
 
-*This project demonstrates early adoption of HTML5 and CSS3 techniques that would later become standard practices in front-end development. Visit my [full portfolio](https://github.com/ptingiris/pam-tingiris-portfolio.git) for a detailed analysis of this project and my more current work.*
+*This project demonstrates early adoption of HTML5 and CSS3 techniques that would later become standard practices in front-end development. Visit [pam-tingiris-portfolio](https://github.com/ptingiris/pam-tingiris-portfolio.git) for a detailed analysis of this project and my current work.*
