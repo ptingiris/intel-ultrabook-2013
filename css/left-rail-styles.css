@@ -1,0 +1,43 @@
+#trmLeftModuleContainer { 
+	/*position: absolute;
+	top: 440px;
+	left: 0px;
+    width: 190px;*/
+}
+
+#trmLeftModule { 
+	/*float:right;*/
+	width:183px; 
+	text-align: left;
+}
+
+#trmIcons {
+	height: 25px;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+.trmTwitterIcon {
+	display: inline-block;
+	padding-bottom: 3px;
+}
+
+
+#trmLeftModule #imageContainer {
+	position: relative;
+	width: 198px;
+	height: 242px;
+	margin-right: -20px;
+}
+
+#trmLeftModule #imageContainer #railImage {
+	position: absolute;
+	width: 138px;
+	height: 232px;
+	float: right;
+	top: 28px;
+	left: 62px;
+}
+
+#trmFacebook:hover{ cursor:pointer}
+#trmTwitter:hover{ cursor:pointer}

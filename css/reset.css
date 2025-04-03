@@ -1,0 +1,50 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+#trmContainer html, #trmContainer body, #trmContainer div, #trmContainer span, #trmContainer applet, #trmContainer object, #trmContainer iframe,
+#trmContainer h1, #trmContainer h2, #trmContainer h3, #trmContainer h4, #trmContainer h5, #trmContainer h6, #trmContainer p, #trmContainer blockquote, #trmContainer pre,
+#trmContainer a, #trmContainer abbr, #trmContainer acronym, #trmContainer address, #trmContainer big, #trmContainer cite, #trmContainer code,
+#trmContainer del, #trmContainer dfn, #trmContainer em, #trmContainer img, #trmContainer ins, #trmContainer kbd, #trmContainer q, #trmContainer s, #trmContainer samp,
+#trmContainer small, #trmContainer strike, #trmContainer strong, #trmContainer sub, #trmContainer sup, #trmContainer tt, #trmContainer var,
+#trmContainer b, #trmContainer u, #trmContainer i, #trmContainer center,
+#trmContainer dl, #trmContainer dt, #trmContainer dd, #trmContainer ol, #trmContainer ul, #trmContainer li,
+#trmContainer fieldset, #trmContainer form, #trmContainer label, #trmContainer legend,
+#trmContainer table, #trmContainer caption, #trmContainer tbody, #trmContainer tfoot, #trmContainer thead, #trmContainer tr, #trmContainer th, #trmContainer td,
+#trmContainer article, #trmContainer aside, #trmContainer canvas, #trmContainer details, #trmContainer embed, 
+#trmContainer figure, #trmContainer figcaption, #trmContainer footer, #trmContainer header, #trmContainer hgroup, 
+#trmContainer menu, #trmContainer nav, #trmContainer output, #trmContainer ruby, #trmContainer section, #trmContainer summary,
+#trmContainer time, #trmContainer mark, #trmContainer audio, #trmContainer video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: 100% "neo-sans-intel",'tahoma','helvetica',sans-serif;
+	line-height: 1;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+#trmContainer article, #trmContainer aside, #trmContainer details, #trmContainer figcaption, #trmContainer figure, 
+#trmContainer footer, #trmContainer header, #trmContainer hgroup, #trmContainer menu, #trmContainer nav, #trmContainer section {
+	display: block;
+}
+#trmContainer body {
+	line-height: 1;
+}
+#trmContainer ol, #trmContainer ul {
+	list-style: none;
+}
+#trmContainer blockquote, #trmContainer q {
+	quotes: none;
+}
+#trmContainer blockquote:before, #trmContainer blockquote:after,
+#trmContainer q:before, #trmContainer q:after {
+	content: '';
+	content: none;
+}
+#trmContainer table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img { border:none; }
